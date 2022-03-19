@@ -1,0 +1,4192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+            /* Navbar start  */
+
+.nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    }
+
+.nav .logo{
+    display: flex;
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+    
+   
+}
+
+.nav .logo .logo1{
+    position: relative;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    transition:all 0.2s ease-in;
+    cursor: none;
+
+}
+
+.nav .logo .logo1:hover{
+    transform: rotate(180deg);
+}
+
+.nav .logo p{
+    position: relative;
+    left:8px;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+
+.nav ul{
+    display:flex;
+    justify-content: center;
+    width: 70%;
+    float:right;
+    margin-right: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 25px;
+   
+}
+
+.nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+}
+
+.checkbtn{
+    display:none;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check{
+    display:none;
+}
+
+
+
+.nav .btn{
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 1.3rem;
+    color: orange;
+    border: 1px solid orange;
+    border-radius:5px;
+    position: relative;
+    
+    left: 5rem;
+    
+    
+}
+
+.nav .btn:active{
+    border: none;
+}
+
+            /* Navbar end */
+
+            /* Card1 start */
+
+.card1{
+    width: 86%;
+    height:600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card1 .box_l{
+    flex-direction: column;
+}
+
+.card1 .box_l h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.card1 .box_l p{
+    position: relative;
+    top: 1rem;
+    color: silver;
+    font-size: 19px;
+}
+
+.card1 .box_l select{
+    position: relative;
+    top: 1rem;
+    width: 175px;
+    background-color: #FF7235;
+    color: white;
+}
+
+
+.card1 .box_l .card1_box{
+    display:flex;
+    align-items:center;
+   
+}
+
+.card1 .box_l .card1_box p{
+    position:relative;
+    left:1.5rem;
+    top:22px;
+}
+
+                                    /* Card1 end */
+
+                                    /* Card2 start */
+
+
+.card2{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+
+.card2 .box .card2_box{
+    width:100%;
+    height:637px;
+    background: #FF7235;
+
+}
+
+
+
+.card2 .box .card2_box .vector3{
+    height:380px;
+    position:relative;
+    top:16.05rem;
+   
+
+}
+
+.card2 .box .card2_box .vector4{
+    position:relative;
+    height:350px;
+    top: -15px;
+    left: 50%;
+    
+
+}
+
+.card2 .box .card2_box .image{
+    position:absolute;
+    width:87%;
+    height:550px;
+    margin:87px auto;
+    left:90px;
+    z-index: 555;
+}
+
+.card2 .box .card2-imgs{
+    width:87%;
+    height:150px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card2 .box .card2-imgs .vector3{
+width:130px;
+height:25px;
+
+}
+
+.card2 .box .card2-imgs .vector3:hover{
+    box-shadow:0px 0px 10px silver;
+}
+
+
+                             /* <!-- Card2 end  -->
+
+                            <!-- /Card3 start  --> */
+.card3{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card3 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    
+   
+}
+
+.card3 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card3 .box_l h1{
+    
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.card3 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position: relative;
+     top: 0.5rem;
+}
+
+.card3 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card3 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card3 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card3 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+                            /* <!-- Card3 end  -->
+
+                            <!-- /Card4 start  --> */
+
+
+.card4{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+
+.card4 .box_r{
+    width: 35%;
+    display:flex;
+    flex-direction:column;
+    margin-left: 1rem;
+    
+   
+   
+}
+
+.card4 .box_r p:nth-child(1) {
+     color:silver;
+}
+
+.card4 .box_r h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.card4 .box_r p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position: relative;
+    top: 0.5rem;
+}
+
+.card4 .box_r .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card4 .box_r .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card4 .box_r .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card4 .box_r .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+                            /* <!-- Card4 end  -->
+
+                            <!-- /Card5 start  --> */
+
+.card5{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card5 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+   
+}
+
+.card5 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card5 .box_l h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.card5 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position: relative;
+     top: 0.5rem;
+}
+
+.card5 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card5 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card5 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card5 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+
+                        /* <!-- Card5 end  -->
+
+                            <!-- /Card6 start  --> */
+
+.card6{
+    width: 87%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card6 .boxs .box_l{
+    width: 63%;
+}
+
+.card6 .boxs .box_l h1{
+    font-size: 90px;
+    font-weight: 500;
+    
+}
+
+.card6 .boxs .box_r{
+    width: 32%;
+}
+
+.card6 .boxs .box_r p:nth-child(1){
+    color: #BDBDBD;
+    font-size: 24px;
+    position: relative;
+    top: 2.5rem;
+    line-height: 40px;
+}
+
+.card6 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 2rem;
+}
+
+.card6 .box_b .cards .card{
+    width: 30%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border: none;
+    padding: 0 3rem;
+    text-align: center;
+    margin: 0 1%;
+}
+
+.card6 .box_b .cards .card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.card6 .box_b .cards .card .icon{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+    background: rgba(226, 89, 139, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1rem;
+}
+
+.card6 .box_b .cards .card p{
+    font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #BDBDBD;
+}
+
+.card6 .box_b .cards .card .vector{
+    position: relative;
+    top: 1rem;
+    transition: all 0.2s ease-in;
+
+}
+
+.card6 .box_b .cards .card:hover .vector{
+    transform: rotate(360deg);
+}
+
+
+                        /* <!-- Card6 end  -->
+
+                        <!-- /Card7 start  --> */
+
+
+.card7{
+    width: 88%;
+    margin: 8rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card7 .box_t h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.card7 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 4rem;
+}
+
+.card7 .box_b .cards .card{
+    width: 30%;
+    height: 460px;
+    margin: 1%;
+    padding: 25px 40px;
+    background: #f1f0f086;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+
+.card7 .box_b .cards .card:hover{
+    box-shadow:0 0 10px silver;
+}
+
+.card7 .box_b .cards .card h2{
+    position: relative;
+    top: 2rem;
+}
+
+.card7 .box_b .cards .card p{
+    position: relative;
+    top: 2.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card7 .box_b .cards .card .text h3{
+    position: relative;
+    top: 3rem;
+}
+
+.card7 .box_b .cards .card .text p{
+    position: relative;
+    top: 3.2rem;
+    color:#BDBDBD ;
+    font-size: 18px;
+    font-weight: 400;
+  
+
+}
+
+.card7 .box_b .cards .card p:nth-child(7){
+    position: relative;
+    top: 2.5rem;
+    color:#BDBDBD ;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.card7 .box_b .cards .card .btn{
+height: 40px;
+width: 136px;
+left: 0px;
+top: 70px;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+position: relative;
+border: 1px solid #FF7235;
+box-sizing: border-box;
+border-radius: 8px;
+display: flex;
+}
+
+.card7 .box_b .cards .card .btn p{
+    position: relative;
+    top: 0;
+    color:#FF7235 ;
+    font-weight: 500;
+}
+
+.card7 .box_b .cards .card .btn:hover p{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn .vector{
+    position: relative;
+    top: 6px;
+    left: 15px;
+    color: #FF7235;
+}
+
+.card7 .box_b .cards .card .btn:hover .vector{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:hover{
+    background-color:#FF7235;
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:active{
+    background-color:#df4909;
+    
+}
+
+
+                                        /* card 7 end */
+
+                                        /* card 8 start */
+.card8{
+    width: 100%;
+    height: 60vh;
+    margin: 9rem auto;
+    
+}
+
+.card8 .box_t h1{
+    text-align: center;
+    font-size: 75px;
+    width: 60%;
+    font-weight: 700;
+    margin: 0 auto 5rem;
+}
+
+.card8 .box_b ul{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    position: relative;
+    top: 0rem;
+    list-style-type: none;
+   
+    
+    
+}
+
+.card8 .box_b   ul li .card{
+    width: 350px;
+    height: 230px;
+    background: #FFFFFF;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 1.5rem;
+margin: 0 1rem;
+
+
+
+}
+
+.card8 .box_b ul li .card .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #FFBE21;
+border-radius: 12px 12px 0px 0px;
+}
+
+.card8 .box_b ul li .card .a{
+    background: #FF7235;
+
+}
+.card8 .box_b ul li .card .c{
+    background: #4756DF;
+
+}
+.card8 .box_b ul li .card .d{
+    background: #3EC1F3;
+
+}
+.card8 .box_b ul li .card .e{
+    background: #BB7259;
+
+}
+
+.card8 .box_b ul li .card p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card8 .box_b ul li .card .line{
+    display: flex;
+    z-index: 555;
+    
+}
+
+.card8 .box_b ul li .card .line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.card8 .box_b ul li .card .line p{
+    color: silver;
+}
+
+
+
+                                         /* card 8 end */
+
+                                        /* card 9 start */
+
+.card9{
+    background:#FF7235;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 6rem;
+}
+
+.box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.card9 .box_t h1{
+    width: 80%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    
+}
+
+.card9 .box_t p{
+    font-size: 27px;
+    color: white;
+    position: relative;
+    top: 1rem;
+
+}
+
+.card9 .box_b{
+    width: 100%;
+    display: flex;
+   
+}
+
+.card9 .box_b .box_m{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    justify-content:center;
+    z-index: 55;
+    top: 20rem;
+    padding: 0 4%;
+}
+
+.card9 .box_b .box_m img:nth-child(1){
+    width: 455px;
+    height: 322px;
+    position: relative;
+    z-index: 22;
+}
+
+.card9 .box_b select{
+    width: 183px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #FF7235;
+}
+
+.card9 .box_b .vector1{
+    position: absolute;
+    width: 360px;
+    bottom:0;
+}
+
+.card9 .box_b .vector2{
+    position: absolute;
+    width: 410px;
+    right: 0;
+    top: 0;
+}
+
+
+.card9 .box_b img:nth-child(4){
+    width: 455px;
+    height: 322px;
+    position: relative;
+    z-index: 22;
+}
+
+                        /* card 9 end */
+
+                        /* card 10 start */
+
+.card10{
+    width: 88%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 15rem auto 3rem;
+}
+
+.card10 .box_t{
+    width: 15%;
+}
+
+.card10 .box1{
+   
+}
+
+.card10 .box1 .logo{
+    display: flex;
+    position: relative;
+    
+   
+   
+}
+
+.card10 .box_t .box1 .logo1{
+    position: relative;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    transition:all 0.2s ease-in;
+    cursor: none;
+
+}
+
+.card10 .box_t .box1 .logo .logo1:hover{
+    transform: rotate(180deg);
+}
+
+.card10 .box_t .box1 .logo p{
+    position: relative;
+    left:8px;
+    font-weight: 500;
+    font-size: 22px;
+   
+}
+
+.card10 .box_b{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card10 .box_b .box2 h3{
+    width: 17%;
+    
+}
+
+.card10 .box_b .box3 h3{
+    width: 25%;
+    
+}
+
+.card10 .box_b .box4 h3{
+    width: 33%;
+    
+}
+
+.card10 .box_b .box4 p{
+    position: relative;
+    color: #BDBDBD;
+    
+}
+
+.card10 .box_b .box4 input{
+width: 340px;
+height: 55px;
+background: #FFFFFF;
+padding:5px 5px  5px 1rem;
+border: 1px solid #292830;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.card10 .box_b .box4 .btn{
+position: relative;
+height: 43.5px;
+top:-2px;
+right:24%;
+background-color: #FF7235;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.card10 .box_b .box4 .btn:hover{
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 .btn:active{
+    background-color: #c75829;
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 p:nth-child(5){
+position: relative;
+top: 1rem;
+font-size: 13px;
+}
+
+.card10 p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+                        /* card 10 end */
+
+                        /* Footer strt */
+
+.footer{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-top: 1px solid rgba(192, 192, 192, 0.493);
+    padding: 2rem 3rem 0;
+    margin: 0 auto;
+}
+
+.footer .box3 i:hover{
+    width: 17%;
+    position: relative;
+   font-size: 20px;
+   color: rgb(6, 6, 78);
+}
+
+@media only screen and (max-width: 992px){
+
+    .nav{
+        background: #0082e6;
+        height: 80px;
+        width: 100%;
+        
+        }
+    
+    .nav .logo{
+        display: flex;
+        position: relative;        
+        left: 3rem;
+        
+       
+    }
+    
+    .nav .logo .logo1{
+        position: relative;
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: orange;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+        transition:all 0.2s ease-in;
+        cursor: none;
+    
+    }
+    
+    .nav .logo .logo1:hover{
+        transform: rotate(180deg);
+    }
+    
+    .nav .logo p{
+        position: relative;
+        left:8px;
+        font-weight: 500;
+        font-size: 20px;
+       
+    }
+    
+    .nav ul{
+        display:flex;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+        /* float:right; */
+        /* margin-right: 20px; */
+    }
+    
+    .nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 1%;
+       
+    }
+    
+    .nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    }
+    
+    
+    
+    
+    a.active,a:hover{
+        background: #1b9bff;
+        transition: 0.5s;
+    }
+    
+    .checkbtn{
+        display:none;
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+    
+    #check{
+        display:none;
+    }
+    
+    
+    
+    .nav .btn{
+        width: 150px;
+        height: 35px;
+        position: relative;
+        top: 1.3rem;
+        color: orange;
+        border: 1px solid orange;
+        border-radius:5px;
+        position: relative;
+        left:-20px;    
+    }
+    
+    .nav .btn:active{
+        border: none;
+    }
+    
+                /* Navbar end */
+    
+                /* Card1 start */
+    .card1{
+        width: 86%;
+        height:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card1 .box_l{
+        flex-direction: column;
+    }
+    
+    .card1 .box_l h1{
+        font-size: 75px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .card1 .box_l p{
+        position: relative;
+        top: 1rem;
+        color: silver;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .card1 .box_l select{
+        position: relative;
+        top: 1rem;
+        width: 175px;
+        background-color: #FF7235;
+        color: white;
+    }
+    
+    
+    .card1 .box_l .card1_box{
+        display:flex;
+        align-items:end;
+        justify-content:space-around;
+        position: relative;
+        /* top: 50rem; */
+        
+
+       
+    }
+    
+    .card1 .box_l .card1_box p{
+        position:relative;
+       
+    }
+
+
+    .card1 .box_r .card_png img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+                                    /* Card1 end */
+
+                                    /* Card2 start */
+
+
+.card2{
+    width:100%;
+    height:auto;
+    position: relative;
+    top: 2rem;
+}
+
+
+.card2 .box .card2_box{
+    width:100%;
+    height:637px;
+    background: #FF7235;
+    box-sizing:border-box;
+    
+    
+
+}
+
+
+
+.card2 .box .card2_box .vector3{
+    height:380px;
+    position:relative;
+    
+   
+
+}
+
+.card2 .box .card2_box .vector4{
+    position:relative;
+    left: 20%;
+    height:350px;
+}
+
+.card2 .box .card2_box .image{
+    position:absolute;
+    left:7%;
+    width:86%;
+    height:550px;
+    margin:87px auto;
+    z-index: 555;
+}
+
+.card2 .box .card2-imgs{
+    width:87%;
+    height:150px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card2 .box .card2-imgs .vector3{
+width:100px;
+height:25px;
+
+}
+
+.card2 .box .card2-imgs .vector3:hover{
+    box-shadow:0px 0px 10px silver;
+}
+
+
+                             /* <!-- Card2 end  -->
+
+                            <!-- /Card3 start  --> */
+.card3{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card3 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    
+   
+}
+
+.card3 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card3 .box_l h1{
+    
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.card3 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position:relative;
+     top: 0rem;
+     width: 250%;
+     z-index: 55;
+}
+
+.card3 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card3 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card3 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card3 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card3 .box_r img{
+    width: 75%;
+}
+
+                            /* <!-- Card3 end  -->
+
+                            <!-- /Card4 start  --> */
+
+
+.card4{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+
+.card4 .box_r{
+    width: 35%;
+    display:flex;
+    flex-direction:column;
+    margin-left: 1rem;
+    
+   
+   
+}
+
+.card4 .box_r p:nth-child(1) {
+     color:silver;
+}
+
+.card4 .box_r h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.card4 .box_r p:nth-child(3) {
+    color:silver;
+    width: 300%;
+    font-size:20px;
+    position: relative;
+    top: 0rem;
+    left: -220%;
+}
+
+.card4 .box_r .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card4 .box_r .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card4 .box_r .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card4 .box_r .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card4 .box_l img{
+    width: 75%;
+}
+
+                            /* <!-- Card4 end  -->
+
+                            <!-- /Card5 start  --> */
+
+.card5{
+    width:86%;
+    position: relative;
+    /* left: 3rem; */
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card5 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+   
+}
+
+.card5 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card5 .box_l h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.card5 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position: relative;
+    top: 0rem;
+     width: 250%;
+     z-index: 55;
+}
+
+.card5 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card5 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card5 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card5 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card5 .box_r img{
+    width: 75%;
+}
+
+
+                        /* <!-- Card5 end  -->
+
+                            <!-- /Card6 start  --> */
+
+.card6{
+    width: 87%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card6 .boxs .box_l {
+    width: 60%;
+}
+
+
+.card6 .boxs .box_l h1{
+    width: 65%;
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+
+.card6 .boxs .box_r{
+    width: 35%;
+}
+
+.card6 .boxs .box_r p:nth-child(1){
+    color: #BDBDBD;
+    font-size: 24px;
+    position: relative;
+    top: 2.5rem;
+    line-height: 40px;
+}
+
+.card6 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 2rem;
+}
+
+.card6 .box_b .cards .card{
+    width: 30%;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border: none;
+    padding: 0 3rem;
+    text-align: center;
+    margin: 0 2%;
+}
+
+.card6 .box_b .cards .card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.card6 .box_b .cards .card .icon{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+    background: rgba(226, 89, 139, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1rem;
+}
+
+.card6 .box_b .cards .card p{
+    font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #BDBDBD;
+}
+
+.card6 .box_b .cards .card .vector{
+    position: relative;
+    top: 1rem;
+    transition: all 0.2s ease-in;
+
+}
+
+.card6 .box_b .cards .card:hover .vector{
+    transform: rotate(360deg);
+}
+
+
+                        /* <!-- Card6 end  -->
+
+                        <!-- /Card7 start  --> */
+
+
+.card7{
+    width: 88%;
+    margin: 8rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card7 .box_t h1{
+    text-align: center;
+    font-size: 53px;
+    font-weight: 700;
+}
+
+.card7 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 4rem;
+}
+
+.card7 .box_b .cards .card{
+    width: 31%;
+    height: 460px;
+    margin: 1%;
+    padding: 25px 40px;
+    background: #f1f0f086;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+
+.card7 .box_b .cards .card:hover{
+    box-shadow:0 0 10px silver;
+}
+
+.card7 .box_b .cards .card h2{
+    position: relative;
+    top: 2rem;
+    font-size: 20px;
+}
+
+.card7 .box_b .cards .card p{
+    position: relative;
+    top: 2.5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card7 .box_b .cards .card .text h3{
+    position: relative;
+    top: 3rem;
+    font-size: 22px;
+}
+
+.card7 .box_b .cards .card .text p{
+    position: relative;
+    top: 3.2rem;
+    color:#BDBDBD ;
+    font-size: 18px;
+    font-weight: 400;
+  
+
+}
+
+.card7 .box_b .cards .card p:nth-child(7){
+    position: relative;
+    top: 2.5rem;
+    color:#BDBDBD ;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.card7 .box_b .cards .card .btn{
+height: 40px;
+width: 136px;
+left: 0px;
+top: 50px;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+position: relative;
+border: 1px solid #FF7235;
+box-sizing: border-box;
+border-radius: 8px;
+display: flex;
+}
+
+.card7 .box_b .cards .card .btn p{
+    position: relative;
+    top: 0;
+    color:#FF7235 ;
+    font-weight: 500;
+}
+
+.card7 .box_b .cards .card .btn:hover p{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn .vector{
+    position: relative;
+    top: 6px;
+    left: 15px;
+    color: #FF7235;
+}
+
+.card7 .box_b .cards .card .btn:hover .vector{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:hover{
+    background-color:#FF7235;
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:active{
+    background-color:#df4909;
+    
+}
+
+
+                                        /* card 7 end */
+
+                                        /* card 8 start */
+.card8{
+    width: 100%;
+    height:auto;
+    margin: 9rem auto 0;
+    
+}
+
+.card8 .box_t h1{
+    text-align: center;
+    font-size: 65px;
+    width: 80%;
+    font-weight: 700;
+    margin: 0 auto 5rem;
+}
+
+.card8 .box_b ul{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    position: relative;
+    top: 0rem;
+    list-style-type: none;
+   
+    
+    
+}
+
+.card8 .box_b   ul li .card{
+    width: 350px;
+    height: 230px;
+    background: #FFFFFF;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 1.5rem;
+margin: 0 1rem;
+
+
+
+}
+
+.card8 .box_b ul li .card .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #FFBE21;
+border-radius: 12px 12px 0px 0px;
+}
+
+.card8 .box_b ul li .card .a{
+    background: #FF7235;
+
+}
+.card8 .box_b ul li .card .c{
+    background: #4756DF;
+
+}
+.card8 .box_b ul li .card .d{
+    background: #3EC1F3;
+
+}
+.card8 .box_b ul li .card .e{
+    background: #BB7259;
+
+}
+
+.card8 .box_b ul li .card p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card8 .box_b ul li .card .line{
+    display: flex;
+    z-index: 555;
+    
+}
+
+.card8 .box_b ul li .card .line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.card8 .box_b ul li .card .line p{
+    color: silver;
+}
+
+
+
+                                         /* card 8 end */
+
+                                        /* card 9 start */
+
+.card9{
+    background:#FF7235;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: -10rem;
+    
+}
+
+.box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.card9 .box_t h1{
+    width: 88%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    
+}
+
+.card9 .box_t p{
+    font-size: 27px;
+    color: white;
+    position: relative;
+    top: 1rem;
+
+}
+
+.card9 .box_b{
+    width: 100%;
+    display: flex;
+   
+}
+
+.card9 .box_b .box_m{
+    width: 100%;
+    position:relative;
+    /* display: flex;
+    justify-content:center; */
+    z-index: 55;
+    top: 5rem;
+    padding: 0 4%;
+}
+
+.card9 .box_b .box_m img:nth-child(1){
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 6rem;
+    left: 4%;
+    z-index: 22;
+}
+
+.card9 .box_b select{
+    width: 183px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #FF7235;
+}
+
+.card9 .box_b .vector1{
+    position: absolute;
+    width: 320px;
+    bottom:0;
+}
+
+.card9 .box_b .vector2{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+
+.card9 .box_b img:nth-child(3){
+    width: 350px;
+    height: 250px;
+    position: relative;
+    right: 6%;
+    top: 6.7rem;
+    z-index: 22;
+}
+
+                        /* card 9 end */
+
+                        /* card 10 start */
+
+.card10{
+    width: 88%;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    margin: 0rem auto 3rem;
+}
+
+.card10 .box_t{
+    width: 15%;
+}
+
+.card10 .box1{
+   
+}
+
+.card10 .box1 .logo{
+    display: flex;
+    position: relative;
+    
+   
+   
+}
+
+.card10 .box_t .box1 .logo1{
+    position: relative;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    transition:all 0.2s ease-in;
+    cursor: none;
+
+}
+
+.card10 .box_t .box1 .logo .logo1:hover{
+    transform: rotate(180deg);
+}
+
+.card10 .box_t .box1 .logo p{
+    position: relative;
+    left:8px;
+    font-weight: 500;
+    font-size: 22px;
+   
+}
+
+.card10 .box_b{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card10 .box_b .box2{
+    width: 15%;
+    position: relative;
+    left: 10px;
+    
+}
+
+.card10 .box_b .box3{
+  width: 25%;
+}
+
+.card10 .box_b .box4{
+    width: 40%;   
+}
+
+.card10 .box_b .box4 p{
+    position: relative;
+    color: #BDBDBD;
+    
+}
+
+.card10 .box_b .box4 input{
+width: 250px;
+height: 50px;
+background: #FFFFFF;
+padding:5px 5px  5px 1rem;
+border: 1px solid #292830;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.card10 .box_b .box4 .btn{
+position: relative;
+height: 42.5px;
+    top: -47px;
+    right: -60%;
+background-color: #FF7235;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.card10 .box_b .box4 .btn:hover{
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 .btn:active{
+    background-color: #c75829;
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 p:nth-child(5){
+position: relative;
+top: 1rem;
+font-size: 13px;
+}
+
+.card10 p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+                        /* card 10 end */
+
+                        /* Footer strt */
+
+.footer{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border-top: 1px solid rgba(192, 192, 192, 0.493);
+    padding: 2rem 3rem 0;
+    margin: 0 auto;
+}
+
+.footer .box3 i:hover{
+    width: 17%;
+    position: relative;
+   font-size: 20px;
+   color: rgb(6, 6, 78);
+}
+}
+
+
+@media only screen and (max-width: 768px){
+    .card1{
+        width: 86%;
+        height:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card1 .box_l{
+        flex-direction: column;
+    }
+    
+    .card1 .box_l h1{
+        font-size: 65px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .card1 .box_l p{
+        position: relative;
+        top: 1rem;
+        color: silver;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .card1 .box_l select{
+        position: relative;
+        top: 1rem;
+        width: 175px;
+        background-color: #FF7235;
+        color: white;
+    }
+    
+    
+    .card1 .box_l .card1_box{
+        display:flex;
+        justify-content:space-around;
+        position: relative;
+        top: 40rem;
+
+       
+    }
+    
+    .card1 .box_l .card1_box p{
+        position:relative;
+       
+    }
+
+
+    .card1 .box_r .card_png img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    .nav{
+        
+        background: #0082e6;
+        height: 80px;
+        width: 100%;
+        
+        }
+    
+    .nav .logo{
+        display: flex;
+        position: relative;        
+        left: 3rem;
+        
+       
+    }
+    
+    .nav .logo .logo1{
+        position: relative;
+        top: 0px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: orange;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+        transition:all 0.2s ease-in;
+        cursor: none;
+    
+    }
+    
+    .nav .logo .logo1:hover{
+        transform: rotate(180deg);
+    }
+    
+    .nav .logo p{
+        position: relative;
+        left:8px;
+        font-weight: 500;
+        font-size: 20px;
+       
+    }
+   
+    
+
+    .checkbtn{
+        position: relative;
+        left: 2rem;
+        display: block;
+       }
+    
+       .nav ul{
+           position: fixed;
+           width: 100%;
+           height: 100vh;
+           background: #2c3e50;
+           top: 80px;
+           left: -100%;
+           align-items: center;
+           text-align: center;
+           transition: all 0.5s ;
+           z-index: 55555;
+           display: flex;
+           flex-direction: column;
+       }
+    
+       .nav ul li{
+           display:inline-block;
+           margin: 50px 0;
+           line-height: 30px;
+       }
+    
+       .nav ul li a{
+           font-size: 20px;
+    
+       }  
+    
+       a:hover,a.active{
+           background: none;
+           color: #0082e6;
+       }
+    
+       #check:checked ~ ul{
+           left:0;
+       }
+
+
+
+
+    
+    
+    
+    
+    .nav .btn{
+        width: 150px;
+        height: 35px;
+        position: relative;
+        top: 1.3rem;
+        color: orange;
+        border: 1px solid orange;
+        border-radius:5px;
+        position: relative;
+        left:45%;
+        
+        
+        
+        
+    }
+    
+    .nav .btn:active{
+        border: none;
+    }
+    
+                /* Navbar end */
+    
+                /* Card1 start */
+    .card1{
+        width: 86%;
+        height:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card1 .box_l{
+        flex-direction: column;
+    }
+    
+    .card1 .box_l h1{
+        font-size: 65px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .card1 .box_l p{
+        position: relative;
+        top: 1rem;
+        color: silver;
+        font-size: 19px;
+        text-align: center;
+        z-index: 0;
+    }
+    
+    .card1 .box_l select{
+        position: relative;
+        top: 1rem;
+        width: 175px;
+        background-color: #FF7235;
+        color: white;
+    }
+    
+    
+    .card1 .box_l .card1_box{
+        display:flex;
+        align-items:end;
+        justify-content:space-around;
+        position: relative;
+        /* top: 50rem; */
+        
+
+       
+    }
+    
+    .card1 .box_l .card1_box p{
+        position:relative;
+       
+    }
+
+
+    .card1 .box_r .card_png img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+                                    /* Card1 end */
+
+                                    /* Card2 start */
+
+
+.card2{
+    width:100%;
+    height:auto;
+    position: relative;
+    top: 2rem;
+}
+
+
+.card2 .box .card2_box{
+    width:100%;
+    height:637px;
+    background: #FF7235;
+    box-sizing:border-box;
+    
+    
+
+}
+
+
+
+.card2 .box .card2_box .vector3{
+    height:380px;
+    position:relative;
+    display: none;
+   
+
+}
+
+.card2 .box .card2_box .vector4{
+    position:relative;
+    left: 20%;
+    height:350px;
+    display: none;
+}
+
+.card2 .box .card2_box .image{
+    position:absolute;
+    left:7%;
+    width:86%;
+    height:550px;
+    margin:87px auto;
+    z-index: 555;
+}
+
+.card2 .box .card2-imgs{
+    width:87%;
+    height:110px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card2 .box .card2-imgs .vector3{
+width:100px;
+height:25px;
+
+}
+
+.card2 .box .card2-imgs .vector3:hover{
+    box-shadow:0px 0px 10px silver;
+}
+
+
+                             /* <!-- Card2 end  -->
+
+                            <!-- /Card3 start  --> */
+.card3{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card3 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    
+   
+}
+
+.card3 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card3 .box_l h1{
+    
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.card3 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position:relative;
+     top: 0rem;
+     width: 250%;
+     z-index: 55;
+}
+
+.card3 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card3 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card3 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card3 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card3 .box_r img{
+    width: 75%;
+}
+
+                            /* <!-- Card3 end  -->
+
+                            <!-- /Card4 start  --> */
+
+
+.card4{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+
+.card4 .box_r{
+    width: 35%;
+    display:flex;
+    flex-direction:column;
+    margin-left: 1rem;
+    
+   
+   
+}
+
+.card4 .box_r p:nth-child(1) {
+     color:silver;
+}
+
+.card4 .box_r h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.card4 .box_r p:nth-child(3) {
+    color:silver;
+    width: 300%;
+    font-size:20px;
+    position: relative;
+    top: 0rem;
+    left: -220%;
+}
+
+.card4 .box_r .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card4 .box_r .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card4 .box_r .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card4 .box_r .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card4 .box_l img{
+    width: 75%;
+}
+
+                            /* <!-- Card4 end  -->
+
+                            <!-- /Card5 start  --> */
+
+.card5{
+    width:86%;
+    position: relative;
+    /* left: 3rem; */
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card5 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+   
+}
+
+.card5 .box_l p:nth-child(1) {
+     color:silver;
+     
+}
+
+.card5 .box_l h1{
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.card5 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:20px;
+    position: relative;
+    top: 0rem;
+     width: 250%;
+     z-index: 55;
+}
+
+.card5 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 2rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card5 .box_l .learn p{
+    color: #FF7235;
+    font-size:18px;
+    font-weight:500;
+}
+
+.card5 .box_l .learn .vector{
+    width:18px;
+    height:8px;
+    position:relative;
+    left:10px;
+    top:12px;
+}
+
+.card5 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card5 .box_r img{
+    width: 75%;
+}
+
+
+                        /* <!-- Card5 end  -->
+
+                            <!-- /Card6 start  --> */
+
+.card6{
+    width: 87%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card6 .boxs .box_l {
+    width: 55%;
+}
+
+
+.card6 .boxs .box_l h1{
+    width: 75%;
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+
+.card6 .boxs .box_r{
+    width: 35%;
+}
+
+.card6 .boxs .box_r p:nth-child(1){
+    color: #BDBDBD;
+    font-size: 22px;
+    position: relative;
+    top: 0rem;
+    line-height: 40px;
+}
+
+
+
+.card6 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+}
+
+.card6 .box_b .cards .card{
+    width: 50%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border: none;
+    padding: 0 3rem;
+    text-align: center;
+    margin:5% auto;
+}
+
+.card6 .box_b .cards .card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.card6 .box_b .cards .card .icon{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+    background: rgba(226, 89, 139, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -3rem;
+}
+
+.card6 .box_b .cards .card p{
+    font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #BDBDBD;
+}
+
+.card6 .box_b .cards .card .vector{
+    position: relative;
+    top: 1rem;
+    transition: all 0.2s ease-in;
+
+}
+
+.card6 .box_b .cards .card:hover .vector{
+    transform: rotate(360deg);
+}
+
+
+                        /* <!-- Card6 end  -->
+
+                        <!-- /Card7 start  --> */
+
+
+.card7{
+    width: 88%;
+    margin: 8rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card7 .box_t h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card7 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+}
+
+.card7 .box_b .cards .card{
+width: 50%;
+height: 430px;
+margin: 5% auto;
+padding: 25px 40px;
+background: #f1f0f086;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+
+.card7 .box_b .cards .card:hover{
+    box-shadow:0 0 10px silver;
+}
+
+.card7 .box_b .cards .card h2{
+    position: relative;
+    top: 2rem;
+    font-size: 20px;
+}
+
+.card7 .box_b .cards .card p{
+    position: relative;
+    top: 2.5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card7 .box_b .cards .card .text h3{
+    position: relative;
+    top: 3rem;
+    font-size: 22px;
+}
+
+.card7 .box_b .cards .card .text p{
+    position: relative;
+    top: 3.2rem;
+    color:#BDBDBD ;
+    font-size: 18px;
+    font-weight: 400;
+  
+
+}
+
+.card7 .box_b .cards .card p:nth-child(7){
+    position: relative;
+    top: 2.5rem;
+    color:#BDBDBD ;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.card7 .box_b .cards .card .btn{
+height: 40px;
+width: 136px;
+margin: 40px auto;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+position: relative;
+border: 1px solid #FF7235;
+box-sizing: border-box;
+border-radius: 8px;
+display: flex;
+}
+
+.card7 .box_b .cards .card .btn p{
+    position: relative;
+    top: 0;
+    color:#FF7235 ;
+    font-weight: 500;
+}
+
+.card7 .box_b .cards .card .btn:hover p{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn .vector{
+    position: relative;
+    top: 6px;
+    left: 15px;
+    color: #FF7235;
+}
+
+.card7 .box_b .cards .card .btn:hover .vector{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:hover{
+    background-color:#FF7235;
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:active{
+    background-color:#df4909;
+    
+}
+
+
+                                        /* card 7 end */
+
+                                        /* card 8 start */
+.card8{
+    width: 100%;
+    height:auto;
+    margin: 9rem auto 0;
+    
+}
+
+.card8 .box_t h1{
+    text-align: center;
+    font-size: 65px;
+    width: 80%;
+    font-weight: 700;
+    margin: 0 auto 5rem;
+}
+
+.card8 .box_b ul{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    position: relative;
+    top: 0rem;
+    list-style-type: none;
+   
+    
+    
+}
+
+.card8 .box_b   ul li .card{
+    width: 350px;
+    height: 230px;
+    background: #FFFFFF;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 1.5rem;
+margin: 0 1rem;
+
+
+
+}
+
+.card8 .box_b ul li .card .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #FFBE21;
+border-radius: 12px 12px 0px 0px;
+}
+
+.card8 .box_b ul li .card .a{
+    background: #FF7235;
+
+}
+.card8 .box_b ul li .card .c{
+    background: #4756DF;
+
+}
+.card8 .box_b ul li .card .d{
+    background: #3EC1F3;
+
+}
+.card8 .box_b ul li .card .e{
+    background: #BB7259;
+
+}
+
+.card8 .box_b ul li .card p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card8 .box_b ul li .card .line{
+    display: flex;
+    z-index: 555;
+    
+}
+
+.card8 .box_b ul li .card .line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.card8 .box_b ul li .card .line p{
+    color: silver;
+}
+
+
+
+                                         /* card 8 end */
+
+                                        /* card 9 start */
+
+.card9{
+    background:#FF7235;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: -10rem;
+    
+}
+
+.box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.card9 .box_t h1{
+    width: 88%;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    
+}
+
+.card9 .box_t p{
+    font-size: 27px;
+    color: white;
+    position: relative;
+    top: 1rem;
+
+}
+
+.card9 .box_b{
+    width: 100%;
+    display: flex;
+   
+}
+
+.card9 .box_b .box_m{
+    width: 100%;
+    position:relative;
+    /* display: flex;
+    justify-content:center; */
+    z-index: 55;
+    top: 5rem;
+    padding: 0 4%;
+}
+
+.card9 .box_b .box_m img:nth-child(1){
+    width: 270px;
+    height: 230px;
+    position: relative;
+    top: 6rem;
+    left: 4%;
+    z-index: 22;
+}
+
+.card9 .box_b select{
+    width: 153px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #FF7235;
+}
+
+.card9 .box_b .vector1{
+    position: absolute;
+    width: 320px;
+    bottom:0;
+}
+
+.card9 .box_b .vector2{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+
+.card9 .box_b img:nth-child(3){
+    width: 270px;
+    height: 230px;
+    position: relative;
+    right: 4%;
+    top: 6.5rem;
+    z-index: 22;
+}
+
+                        /* card 9 end */
+
+                        /* card 10 start */
+
+.card10{
+    width: 88%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 0rem auto 3rem;
+}
+.card10 .box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 20px;
+}
+
+.card10 .box_t .box1{
+    /* width: 20%; */
+    
+}
+
+.card10 .box_t .box1 .logo{
+    display: flex;
+    position: relative; 
+}
+
+.card10 .box_t .box1 .logo1{
+    position: relative;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    transition:all 0.2s ease-in;
+    cursor: none;
+
+}
+
+.card10 .box_t .box1 .logo .logo1:hover{
+    transform: rotate(180deg);
+}
+
+.card10 .box_t .box1 .logo p{
+    position: relative;
+    left:8px;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+.card10 .box_b{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.card10 .box_b .box2{
+    text-align: left;
+}
+
+
+    
+.card10 .box_b .box3{
+   text-align: left;
+}
+
+
+
+.card10 .box_b .box4{
+width: 40%;
+}
+
+.card10 .box_b .box4 p{
+    position: relative;
+    color: #BDBDBD;
+    
+}
+
+.card10 .box_b .box4 input{
+width: 200px;
+height: 45px;
+background: #FFFFFF;
+padding:5px 5px  5px 0.5rem;
+border: 1px solid #292830;
+box-sizing: border-box;
+border-radius: 8px;
+font-size: 14px;
+position: relative;
+left: 0;
+}
+
+.card10 .box_b .box4 .btn{
+position: relative;
+height: 37px;
+width: 44%;
+top:-41px;
+background-color: #FF7235;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #FFFFFF;
+right: -115px;
+}
+
+.card10 .box_b .box4 .btn:hover{
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 .btn:active{
+    background-color: #c75829;
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 p:nth-child(5){
+position: relative;
+top: 0rem;
+font-size: 13px;
+}
+
+.card10  p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+}
+
+@media only screen and (max-width:586px){
+    .nav{
+        
+        background: #0082e6;
+        height: 80px;
+        width: 100%;
+        
+        }
+    
+    .nav .logo{
+        display: flex;
+        position: relative;        
+        left: 1.5rem;
+        
+       
+    }
+    
+    .nav .logo .logo1{
+        position: relative;
+        top: 0px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: orange;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 600;
+        transition:all 0.2s ease-in;
+        cursor: none;
+    
+    }
+    
+    .nav .logo .logo1:hover{
+        transform: rotate(180deg);
+    }
+    
+    .nav .logo p{
+        position: relative;
+        left:8px;
+        font-weight: 500;
+        font-size: 20px;
+       
+    }
+   
+    
+
+    .checkbtn{
+        position: relative;
+        left: 2rem;
+        display: block;
+       }
+    
+       .nav ul{
+           position: fixed;
+           width: 100%;
+           height: 100vh;
+           background: #2c3e50;
+           top: 80px;
+           left: -100%;
+           align-items: center;
+           text-align: center;
+           transition: all 0.5s ;
+           z-index: 55555;
+           display: flex;
+           flex-direction: column;
+       }
+    
+       .nav ul li{
+           display:inline-block;
+           margin: 50px 0;
+           line-height: 30px;
+       }
+    
+       .nav ul li a{
+           font-size: 20px;
+    
+       }  
+    
+       a:hover,a.active{
+           background: none;
+           color: #0082e6;
+       }
+    
+       #check:checked ~ ul{
+           left:0;
+       }
+
+
+
+
+    
+    
+    
+    
+    .nav .btn{
+        width: 100px;
+        height: 35px;
+        position: relative;
+        top: 1.3rem;
+        color: orange;
+        border: 1px solid orange;
+        border-radius:5px;
+        position: relative;
+        left:25%;
+        font-size: 11px;
+        line-height: 12px;
+        
+        
+        
+        
+    }
+    
+    .nav .btn:active{
+        border: none;
+    }
+    
+                /* Navbar end */
+    
+                /* Card1 start */
+    .card1{
+        width: 86%;
+        height:auto;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card1 .box_l{
+        flex-direction: column;
+    }
+    
+    .card1 .box_l h1{
+        width: 75%;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .card1 .box_l p{
+        position: relative;
+        width: 80%;
+        margin: 1rem auto;
+        color: silver;
+        font-size: 14px;
+        text-align: center;
+        z-index: 0;
+    }
+    
+    .card1 .box_l select{
+        position: relative;
+        top: 2rem;
+        padding: 0;
+        width:130px;
+        height: 25px;
+        font-size: 12px;
+        background-color: #FF7235;
+        color: white;
+    }
+    
+    
+    .card1 .box_l .card1_box{
+        display:flex;
+        justify-content:space-around;
+        position: relative;
+        top: -1rem;
+        
+
+       
+    }
+    
+    .card1 .box_l .card1_box p{
+        font-size: 12px;
+        position:relative;
+       
+    }
+
+
+    .card1 .box_r .card_png img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+                                    /* Card1 end */
+
+                                    /* Card2 start */
+
+
+.card2{
+    width:100%;
+    height:auto;
+    position: relative;
+    top: 2rem;
+}
+
+
+.card2 .box .card2_box{
+    width:100%;
+    height:340px;
+    background: #FF7235;
+    box-sizing:border-box;
+    
+    
+
+}
+
+
+
+.card2 .box .card2_box .vector3{
+    height:380px;
+    position:relative;
+    display: none;
+   
+
+}
+
+.card2 .box .card2_box .vector4{
+    position:relative;
+    left: 20%;
+    height:350px;
+    display: none;
+}
+
+.card2 .box .card2_box .image{
+    position:absolute;
+    left:7%;
+    width:86%;
+    height:280px;
+    margin:60px auto;
+    z-index: 555;
+}
+
+.card2 .box .card2-imgs{
+    width:87%;
+    height:110px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card2 .box .card2-imgs .vector3{
+width:45px;
+height:12px;
+
+}
+
+.card2 .box .card2-imgs .vector3:hover{
+    box-shadow:0px 0px 10px silver;
+}
+
+
+                             /* <!-- Card2 end  -->
+
+                            <!-- /Card3 start  --> */
+.card3{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card3 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 90%;
+    
+   
+}
+
+.card3 .box_l p:nth-child(1) {
+     color:silver;
+     font-size: 10px;
+     
+     
+}
+
+.card3 .box_l h1{
+    
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card3 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:13px;
+    position:relative;
+     top: 1rem;
+     width: 220%;
+     z-index: 55;
+}
+
+.card3 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 1rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card3 .box_l .learn p{
+    color: #FF7235;
+    font-size:12px;
+    font-weight:500;
+}
+
+.card3 .box_l .learn .vector{
+  
+    width: 12px;
+    height: 6px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+
+.card3 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card3 .box_r{
+    position: relative;
+    
+}
+
+.card3 .box_r img{
+    width: 55%;
+}
+
+                            /* <!-- Card3 end  -->
+
+                            <!-- /Card4 start  --> */
+
+
+.card4{
+    width:88%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+
+.card4 .box_r{
+    width: 90%;
+    display:flex;
+    flex-direction:column;
+    margin-left: 1rem;
+    
+   
+   
+}
+
+.card4 .box_r p:nth-child(1) {
+     color:silver;
+     font-size: 10px;
+}
+
+.card4 .box_r h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card4 .box_r p:nth-child(3) {
+    color: silver;
+    width: 239%;
+    font-size: 12px;
+    position: relative;
+    top: 2rem;
+    left: -185%;
+}
+
+.card4 .box_r .learn{
+    display:flex;
+    position: relative;
+    top: 1rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card4 .box_r .learn p{
+    color: #FF7235;
+    font-size:12px;
+    font-weight:500;
+}
+
+.card4 .box_r .learn .vector{
+    width: 12px;
+    height: 6px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+
+.card4 .box_r .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card4 .box_l img{
+    width: 85%;
+}
+
+                            /* <!-- Card4 end  -->
+
+                            <!-- /Card5 start  --> */
+
+.card5{
+    width:86%;
+    position: relative;
+    margin:5rem auto;
+    display:flex;
+    justify-content: center;
+}
+
+
+.card5 .box_l{
+    display:flex;
+    flex-direction:column;
+    width: 90%;
+   
+}
+
+.card5 .box_l p:nth-child(1) {
+     color:silver;
+     font-size: 10px;
+     
+}
+
+.card5 .box_l h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card5 .box_l p:nth-child(3) {
+    color:silver;
+    font-size:12px;
+    position: relative;
+    top: 1rem;
+     width: 220%;
+     z-index: 55;
+}
+
+.card5 .box_l .learn{
+    display:flex;
+    position: relative;
+    top: 1rem;
+    color: #FF7235;
+
+
+}
+
+
+
+.card5 .box_l .learn p{
+    color: #FF7235;
+    font-size:12px;
+    font-weight:500;
+}
+
+.card5 .box_l .learn .vector{
+    width: 12px;
+    height: 6px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+
+.card5 .box_l .learn:hover .vector{
+    position:relative;
+    left:15px;
+}
+
+.card5 .box_r img{
+    width: 85%;
+}
+
+
+                        /* <!-- Card5 end  -->
+
+                            <!-- /Card6 start  --> */
+
+.card6{
+    width: 87%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.card6 .boxs .box_l {
+    width: 45%;
+}
+
+
+.card6 .boxs .box_l h1{
+    width: 85%;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.card6 .boxs .box_r{
+    width: 55%;
+}
+
+.card6 .boxs .box_r p:nth-child(1){
+    color: #BDBDBD;
+    font-size: 15px;
+    position: relative;
+    top: 0rem;
+    line-height: 24px;
+}
+
+
+
+.card6 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+}
+
+.card6 .box_b .cards .card{
+    width: 85%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border: none;
+    padding: 0 3rem;
+    text-align: center;
+    margin:5% auto;
+}
+
+.card6 .box_b .cards .card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+.card6 .box_b .cards .card .icon{
+    width: 64px;
+    height: 64px;
+    border-radius:50%;
+    background: rgba(226, 89, 139, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2rem;
+}
+
+.card6 .box_b .cards .card p{
+    font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #BDBDBD;
+}
+
+.card6 .box_b .cards .card .vector{
+    position: relative;
+    top: 1rem;
+    transition: all 0.2s ease-in;
+
+}
+
+.card6 .box_b .cards .card:hover .vector{
+    transform: rotate(360deg);
+}
+
+
+                        /* <!-- Card6 end  -->
+
+                        <!-- /Card7 start  --> */
+
+
+.card7{
+    width: 88%;
+    margin: 8rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card7 .box_t h1{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card7 .box_b .cards{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 4rem;
+}
+
+.card7 .box_b .cards .card{
+width: 85%;
+height: 430px;
+margin: 5% auto;
+padding: 25px 40px;
+background: #f1f0f086;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+
+.card7 .box_b .cards .card:hover{
+    box-shadow:0 0 10px silver;
+}
+
+.card7 .box_b .cards .card h2{
+    position: relative;
+    top: 2rem;
+    font-size: 20px;
+}
+
+.card7 .box_b .cards .card p{
+    position: relative;
+    top: 2.5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card7 .box_b .cards .card .text h3{
+    position: relative;
+    top: 3rem;
+    font-size: 22px;
+}
+
+.card7 .box_b .cards .card .text p{
+    position: relative;
+    top: 3.2rem;
+    color:#BDBDBD ;
+    font-size: 18px;
+    font-weight: 400;
+  
+
+}
+
+.card7 .box_b .cards .card p:nth-child(7){
+    position: relative;
+    top: 2.5rem;
+    color:#BDBDBD ;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.card7 .box_b .cards .card .btn{
+height: 40px;
+width: 136px;
+margin: 40px auto;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+position: relative;
+border: 1px solid #FF7235;
+box-sizing: border-box;
+border-radius: 8px;
+display: flex;
+}
+
+.card7 .box_b .cards .card .btn p{
+    position: relative;
+    top: 0;
+    color:#FF7235 ;
+    font-weight: 500;
+}
+
+.card7 .box_b .cards .card .btn:hover p{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn .vector{
+    position: relative;
+    top: 6px;
+    left: 15px;
+    color: #FF7235;
+}
+
+.card7 .box_b .cards .card .btn:hover .vector{
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:hover{
+    background-color:#FF7235;
+    color: white;
+}
+
+.card7 .box_b .cards .card .btn:active{
+    background-color:#df4909;
+    
+}
+
+
+                                        /* card 7 end */
+
+                                        /* card 8 start */
+.card8{
+    width: 100%;
+    height:auto;
+    margin: 9rem auto 0;
+    
+}
+
+.card8 .box_t h1{
+    text-align: center;
+    font-size: 24px;
+    width: 65%;
+    font-weight: 600;
+    margin: 0 auto 5rem;
+}
+
+.card8 .box_b ul{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    position: relative;
+    top: 0rem;
+    list-style-type: none;
+   
+    
+    
+}
+
+.card8 .box_b   ul li .card{
+    width: 318px;
+    height: 230px;
+    background: #FFFFFF;
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+border-radius: 12px;
+padding: 1.5rem;
+margin: 0 1rem;
+
+
+
+}
+
+.card8 .box_b ul li .card .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #FFBE21;
+border-radius: 12px 12px 0px 0px;
+}
+
+.card8 .box_b ul li .card .a{
+    background: #FF7235;
+
+}
+.card8 .box_b ul li .card .c{
+    background: #4756DF;
+
+}
+.card8 .box_b ul li .card .d{
+    background: #3EC1F3;
+
+}
+.card8 .box_b ul li .card .e{
+    background: #BB7259;
+
+}
+
+.card8 .box_b ul li .card p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card8 .box_b ul li .card .line{
+    display: flex;
+    z-index: 555;
+    
+}
+
+.card8 .box_b ul li .card .line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    margin-top: 15px;
+}
+
+.card8 .box_b ul li .card .line h5{
+    margin-top: 17px;
+}
+
+.card8 .box_b ul li .card .line p{
+    color: silver;
+    margin-top: 20px;
+}
+
+
+
+                                         /* card 8 end */
+
+                                        /* card 9 start */
+
+.card9{
+    background:#FF7235;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: -10rem;
+    
+}
+
+.box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.card9 .box_t h1{
+    width: 75%;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    
+}
+
+.card9 .box_t p{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 1rem;
+
+}
+
+.card9 .box_b{
+    width: 100%;
+    display: flex;
+   
+}
+
+.card9 .box_b .box_m{
+    width: 100%;
+    position:relative;
+    z-index: 55;
+    top: 5rem;
+    padding: 0 4%;
+}
+
+.card9 .box_b .box_m img:nth-child(1){
+    width: 220px;
+    height: 170px;
+    position: relative;
+    top: 6rem;
+    left: 50%;
+    z-index: 22;
+}
+
+.card9 .box_b select{
+    width: 153px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 11px;
+    color: #FF7235;
+}
+
+.card9 .box_b .vector1{
+    position: absolute;
+    width: 250px;
+    bottom:0;
+}
+
+.card9 .box_b .vector2{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+
+.card9 .box_b img:nth-child(3){
+    width: 220px;
+    height: 170px;
+    position: relative;
+    right: 43%;
+    top: 18.5rem;
+    z-index: 22;
+}
+
+                        /* card 9 end */
+
+                        /* card 10 start */
+
+.card10{
+    width: 88%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: -8rem auto 3rem;
+}
+.card10 .box_t{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 20px;
+}
+
+
+
+.card10 .box_t .box1 .logo{
+    display: flex;
+    position: relative; 
+}
+
+.card10 .box_t .box1 .logo1{
+    position: relative;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    transition:all 0.2s ease-in;
+    cursor: none;
+
+}
+
+.card10 .box_t .box1 .logo .logo1:hover{
+    transform: rotate(180deg);
+}
+
+.card10 .box_t .box1 .logo p{
+    position: relative;
+    left:8px;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+.card10 .box_b{
+    width: 100%;
+    display:flex;
+    
+    /* justify-content: space-around; */
+    padding: 10px;
+}
+
+.card10 .box_b .box2{
+    position: relative;
+    height: auto;
+    width: 90%; 
+    
+  
+}
+.card10 .box_b .box2 h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card10 .box_b .box2 p{
+    width: 110%;
+    font-size: 14px;
+    text-align:start;
+    line-height: 10px;
+}
+
+
+    
+.card10 .box_b .box3{
+    position: relative;
+   width: 100%;
+   left: 9rem;
+}
+.card10 .box_b .box3 h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card10 .box_b .box3 p{
+    width: 150%;
+    font-size: 14px;
+    text-align:start;
+    line-height: 19px;
+}
+
+
+
+.card10 .box_b .box4{
+width: 80%;
+position: relative;
+top: 17rem;
+right: 43%;
+}
+
+.card10 .box_b .box4 p{
+    width: 150%;
+    position: relative;
+    color: #BDBDBD;
+    
+}
+
+.card10 .box_b .box4 input{
+width: 180px;
+height: 35px;
+background: #FFFFFF;
+padding:5px 5px  5px 0.5rem;
+border: 1px solid #292830;
+box-sizing: border-box;
+border-radius: 8px;
+font-size: 12px;
+position: relative;
+left: 0;
+}
+
+.card10 .box_b .box4 .btn{
+position: relative;
+height: 27px;
+width: 40%;
+top: -31px;
+background-color: #FF7235;
+font-style: normal;
+font-weight: 200;
+font-size: 11px;
+line-height: 0px;
+color: #FFFFFF;
+right: -104px;
+}
+
+.card10 .box_b .box4 .btn:hover{
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 .btn:active{
+    background-color: #c75829;
+    box-shadow: none;
+}
+
+.card10 .box_b .box4 p:nth-child(5){
+position: relative;
+top: 0rem;
+font-size: 13px;
+}
+
+.card10  p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.footer{
+    margin-top: 17rem;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+
+.footer p{
+    width: 85%;
+    text-align: center;
+    font-size: 12px;
+}
+
+}
+
+
